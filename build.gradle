@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'com.myapp'
+version = '1.0.0'
+
+application {
+    mainClass = 'com.myapp.Hello'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Add any dependencies here (currently none are needed for this project)
+}
