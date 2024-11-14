@@ -14,9 +14,9 @@ public class MainPanel extends JPanel {
         //add(new JLabel("MAIN AREA VIEW SIDE"));
         //add(notes_container());
         NotesContainer nc = new NotesContainer();
-        nc.setPreferredSize(new Dimension(350,Integer.MAX_VALUE));
+        //nc.setPreferredSize(new Dimension(350,Integer.MAX_VALUE));
 
-        add(nc, BorderLayout.WEST);
+        add(nc, BorderLayout.CENTER);
     }
 
 
